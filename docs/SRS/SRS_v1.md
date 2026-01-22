@@ -8,6 +8,7 @@ Este documento describe los requisitos para la primera versión de "StockLight".
 - **RF-002 (Listado de Stock):** El sistema debe mostrar una lista de todos los productos registrados con su stock actual.
 - **RF-003 (Actualizar Stock):** El sistema debe permitir modificar la cantidad de un producto existente (sumar o restar unidades).
 - **RF-004 (Persistencia de Datos):** El sistema debe guardar automáticamente los cambios en un archivo local al cerrar la aplicación.
+- **RF-005 (Exportar Reporte):** El sistema debe permitir exportar el inventario actual a un archivo CSV.
 
 ## 3. Requisitos No Funcionales (RNF)
 - **RNF-001 (Portabilidad):** El sistema debe ser compatible con Windows, Linux y macOS.
