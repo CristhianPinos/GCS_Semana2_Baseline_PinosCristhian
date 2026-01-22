@@ -10,7 +10,7 @@ class InventoryManager:
 
 def main():
     manager = InventoryManager()
-    print("---- StockLight v1.0 Beta ----")
+    print("---- StockLight v1.0 Release ----")
     print("Sistema listo para operar.")
     manager.add_product("Manzanas")
     print(f"Inventario cargado: {len(manager.products)} productos.")
