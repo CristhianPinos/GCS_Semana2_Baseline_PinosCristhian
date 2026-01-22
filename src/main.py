@@ -1,2 +1,3 @@
-print("Iniciando estructura de StockLight v0.1...")
+print("StockLight v0.2 - Inicializando...")
 print("Cargando configuración inicial...")
+print("Verificando requisitos del sistema...")
