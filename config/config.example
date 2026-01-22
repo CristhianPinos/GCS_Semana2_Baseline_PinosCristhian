@@ -1,0 +1,5 @@
+{
+  "database_path": "./data/inventory.json",
+  "currency_symbol": "$",
+  "debug_mode": false
+}
