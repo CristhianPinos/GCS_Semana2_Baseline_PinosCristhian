@@ -1,3 +1,10 @@
-print("StockLight v0.2 - Inicializando...")
-print("Cargando configuración inicial...")
-print("Verificando requisitos del sistema...")
+class InventoryManager:
+    """Placeholder para gestión de datos"""
+    pass
+
+class CLIInterface:
+    """Placeholder para interfaz de usuario"""
+    pass
+
+print("StockMin v0.3 - Componentes de arquitectura cargados...")
+print("Modelo y Vista inicializados.")
