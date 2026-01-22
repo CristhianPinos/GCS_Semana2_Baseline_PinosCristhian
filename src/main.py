@@ -1,10 +1,19 @@
+import sys
+
 class InventoryManager:
-    """Placeholder para gestión de datos"""
-    pass
+    def __init__(self):
+        self.products = []
 
-class CLIInterface:
-    """Placeholder para interfaz de usuario"""
-    pass
+    def add_product(self, name):
+        self.products.append(name)
+        return True
 
-print("StockMin v0.3 - Componentes de arquitectura cargados...")
-print("Modelo y Vista inicializados.")
+def main():
+    manager = InventoryManager()
+    print("---- StockLight v1.0 Beta ----")
+    print("Sistema listo para operar.")
+    manager.add_product("Manzanas")
+    print(f"Inventario cargado: {len(manager.products)} productos.")
+
+if __name__ == "__main__":
+    main()
